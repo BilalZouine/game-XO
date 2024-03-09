@@ -38,13 +38,18 @@ span{
 }
 
 @media screen and (max-width:480px) {
-    .alert{
-        width: 80%;
+   .alert{
+        width: 85%;
          margin: 5px auto;
          position: relative;
-         right: 27px;
+         right: 13px;
          padding: 14px 10px;
          font-size: 60px;
+
+    }
+    body{
+        overflow: hidden;
+        padding-right: 15px;
 
     }
     .container{
